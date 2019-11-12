@@ -45,9 +45,13 @@
 	margin-right: 15px;
 
 }
-#hobbies {
+.hobbies {
+	display: flex;
+	flex-direction: row
+	align-items:center;
+	justify-content: center;
 	color: #BEC8D1;
-	margin: 15px;
+	
 }
 
 #name {
@@ -190,6 +194,11 @@ hr {
 	margin-right: 50px;
 
 }
-      
+      @media all and (max-width: 768px) {
+      	body {
+      		min-width: 300px;
+      		
+      	}
+      }
 
   
