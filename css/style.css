@@ -112,14 +112,14 @@
 
 #ref {
 	display: inline-block;
-	margin-bottom: 50px;
+
 }
 
 #ref1 {
 	display: inline-block;
 	margin-left: 100px;
-	margin-top: 30px;
-	margin-bottom: 50px;
+	
+	
 }
 
 #iconright {
@@ -136,6 +136,14 @@
 
 }
 
+.references {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+
+}
 
 img {
 	max-width:80%;
@@ -197,7 +205,7 @@ hr {
       @media all and (max-width: 768px) {
       	body {
       		min-width: 300px;
-      		
+
       	}
       }
 
