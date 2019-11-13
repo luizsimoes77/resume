@@ -14,11 +14,11 @@
      flex-direction: row;
      flex-wrap: wrap;
      justify-content: center;
-     height: 1730px;
+     height: 1680px;
 
 }
 
-#right {
+.right {
 	width: 60%;
 	background-color: #8DBFBE;
     font-family: 'Helvetica', sans-serif;
@@ -28,7 +28,7 @@
 
 }
 
-#left {
+.left {
 	width: 25%;
     background-color: #0B132B;
     color: #fff;
@@ -40,12 +40,14 @@
 #about {
 	padding-bottom: 560px;
 }
+
 .fas {
 	margin-left: 15px;
 	margin-right: 15px;
 
 }
-.hobbies {
+#hobbies {
+	margin-top: 20px;
 	display: flex;
 	flex-direction: row
 	align-items:center;
@@ -113,11 +115,13 @@
 #ref {
 	display: inline-block;
 
+
 }
 
 #ref1 {
 	display: inline-block;
 	margin-left: 100px;
+
 	
 	
 }
