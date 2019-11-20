@@ -21,48 +21,21 @@
 */
 }
 
+/*Right Side*/
 .right {
 	width: 60%;
 	background-color: #8DBFBE;
     font-family: 'Helvetica', sans-serif;
     padding-left: 40px;
-
-    
-
 }
 
-.left {
-	width: 25%;
-    background-color: #0B132B;
-    color: #fff;
-    text-align: center;
-    font-family: 'Helvetica', sans-serif;
-
-}
-
-#about {
-	padding-bottom: 120px;
-}
-
-.fas {
-	margin-left: 15px;
-	margin-right: 15px;
-
-}
-#hobbies {
-	margin: 10%;
-	padding: 10%;
-	display: flex;
-	flex-direction: row;
-	/*flex-wrap: wrap;*/
-	justify-content: center;
-	align-items: center;
-	color: #BEC8D1;
-	
+#logo {
+	width: auto;	
+/*	border:	1px red solid;*/
 }
 
 #name {
-/*	font-family: 'Lobster', cursive;*/
+
 	font-family: 'Caveat', cursive;
 	font-size: 50px;
 	text-align: left;
@@ -70,59 +43,44 @@
 	margin-left: 40px;
 
 }
+
+
 #desc {
+	
+	/*text-transform: uppercase;*/
 	text-align: left;
 	font-size: 30px;
-	margin-bottom: 100px;
-}
-
-#logo {
-	width: auto;
-	height: 270px;	
-	
-    
-}
-
-
-
-.section_heading {
-	
-	text-transform: uppercase;
-	width: 100%;
-	border-bottom: 1px solid black;
+	width: 25px;
+	border-bottom: 2px solid #3A506B;
 	margin-bottom: 2em;
 }
 
-#date {
-	padding-right: 95px;
-	font-weight: normal;
-	font-size: 12px;
-	display: inline-block;
-}
-#date1 {
-	padding-right: 60px;
-	font-weight: normal;
-	font-size: 12px;
+#references, #experience {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
 }
 
-/*#ed1 {
-	margin-left:  240px;
-	margin-top: -1em;
+.section_heading {
 	
-}*/
-
-/*#wk1 {
-	margin-left:  240px;
-	margin-top: -1em;
-	
-}*/
-
-
+	/*text-transform: uppercase;*/
+	width: 100%;
+	border-bottom: 2px solid #3A506B;
+	margin-bottom: 2em;
+}
 
 #iconright {
 	display: inline-block;
 	color: #3A506B;
 	font-size: 25px;
+
+}
+
+.fas {
+	margin-left: 15px;
+	margin-right: 15px;
 
 }
 
@@ -132,8 +90,13 @@
 	color: #3A506B;
 	width: 250px;
 
+
 /*	border: 1px solid red;*/
 
+}
+
+.city {
+	margin-left: 48px;
 }
 
 .content {
@@ -144,26 +107,8 @@
 	justify-content: flex-start;
 	align-items: flex-start;	
 	width: 60%;
-	border: 1px solid blue;
+/*	border: 1px solid blue;*/
 	
-}
-
-#references, #experience {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-
-
-}
-
-#references {
-/*	border: 1px solid green;*/
-	margin-top:100px
-	margin-bottom: 0;
-	padding-bottom: 40px;
-
 }
 
 .referees, #experience article {
@@ -174,19 +119,51 @@
 }
 .referees article {
 	margin-left: 1em;
-	text-transform: uppercase;
 	padding-bottom: 0;
 	margin-left: 60px;
-	padding-right: 20px;
+	padding-right: 15%;
+	/*border:	1px solid red;*/
 
 	
 }
+
+#references {
+/*	border: 1px solid green;*/
+	margin-bottom: 0;
+	padding-bottom: 40px;
+
+}
+
+
 
  #Juliana {
 	margin-left: 2em;
 }
 
+h2 {
+	display: inline-block;
+}
 
+h4 {
+
+	
+	padding-left: 10px;
+	margin: 0 25px;
+ 	padding: 0;	
+}
+
+
+
+/*Left Side*/
+
+.left {
+	width: 25%;
+    background-color: #0B132B;
+    color: #fff;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+
+}
 
 img {
 	max-width:80%;
@@ -205,24 +182,6 @@ h1 {
 	padding: 5px;
 }
 
-h2 {
-	display: inline-block;
-}
-
-h4 {
-
-	
-	padding-left: 10px;
-	margin: 0 25px;
- 	padding: 0;
-
-	
-}
-
-/*.content p {
-	margin-left: 0;
-	margin-right: 0;
-}*/
 p {
 	font-size: 13px;
 	padding: 10px;
@@ -230,6 +189,68 @@ p {
 	margin-right: 15px;
 	text-align: left;
 }
+
+#about {
+	padding-bottom: 100px;
+}
+
+#hobbies {
+	margin: 10%;
+	padding: 10%;
+	display: flex;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
+	justify-content: center;
+	align-items: center;
+	color: #BEC8D1;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/*#ed1 {
+	margin-left:  240px;
+	margin-top: -1em;
+	
+}*/
+
+/*#wk1 {
+	margin-left:  240px;
+	margin-top: -1em;
+	
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 a:link {
         color: #fff;
         text-decoration: none;
@@ -246,18 +267,10 @@ a:active {
         color: #fff;
         text-decoration: none;
       }
-hr {
-	margin-bottom: 25px;
-	
-	border: 1px solid #3A506B;
-	margin-right: 50px;
 
-}
       @media all and (max-width: 768px) {
       	body {
       		min-width: 300px;
 
       	}
-      }
-
-  
+ 
