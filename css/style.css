@@ -14,8 +14,11 @@
      flex-direction: row;
      flex-wrap: wrap;
      justify-content: center;
-     height: 1680px;
+     min-width: 400px;
+	max-width: 1280px;
 
+/*     height: 100%;
+*/
 }
 
 .right {
@@ -38,7 +41,7 @@
 }
 
 #about {
-	padding-bottom: 560px;
+	padding-bottom: 120px;
 }
 
 .fas {
@@ -47,11 +50,13 @@
 
 }
 #hobbies {
-	margin-top: 20px;
+	margin: 10%;
+	padding: 10%;
 	display: flex;
-	flex-direction: row
-	align-items:center;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
 	justify-content: center;
+	align-items: center;
 	color: #BEC8D1;
 	
 }
@@ -78,14 +83,14 @@
     
 }
 
-#edu {
-	
-	text-transform: uppercase;
-}
 
-#work {
+
+.section_heading {
 	
 	text-transform: uppercase;
+	width: 100%;
+	border-bottom: 1px solid black;
+	margin-bottom: 2em;
 }
 
 #date {
@@ -100,31 +105,19 @@
 	font-size: 12px;
 }
 
-#ed1 {
+/*#ed1 {
 	margin-left:  240px;
 	margin-top: -1em;
 	
-}
+}*/
 
-#wk1 {
+/*#wk1 {
 	margin-left:  240px;
 	margin-top: -1em;
 	
-}
-
-#ref {
-	display: inline-block;
+}*/
 
 
-}
-
-#ref1 {
-	display: inline-block;
-	margin-left: 100px;
-
-	
-	
-}
 
 #iconright {
 	display: inline-block;
@@ -137,17 +130,63 @@
 	font-size: 15px;
 	display: inline-block;
 	color: #3A506B;
+	width: 200px;
+
+/*	border: 1px solid red;*/
 
 }
 
-.references {
+.content {
+	padding-top: 0;
+
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;	
+	width: 60%;
+/*	border: 1px solid blue;*/
+	
+}
+
+#references, #experience {
+	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: flex-start;
+
 
 }
+
+#references {
+/*	border: 1px solid green;*/
+	margin-top:100px
+	margin-bottom: 0;
+	padding-bottom: 40px;
+
+}
+
+.referees, #experience article {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.referees article {
+	margin-left: 1em;
+	text-transform: uppercase;
+	padding-bottom: 0;
+	margin-left: 60px;
+	padding-right: 20px;
+
+	
+}
+
+ #Juliana {
+	margin-left: 2em;
+}
+
+
 
 img {
 	max-width:80%;
@@ -171,11 +210,19 @@ h2 {
 }
 
 h4 {
-	display: inline-block;
-	margin-left: : 100px;
+
+	
+	padding-left: 10px;
+	margin: 0 25px;
+ 	padding: 0;
+
 	
 }
 
+/*.content p {
+	margin-left: 0;
+	margin-right: 0;
+}*/
 p {
 	font-size: 13px;
 	padding: 10px;
