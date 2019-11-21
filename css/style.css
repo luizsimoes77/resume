@@ -1,4 +1,6 @@
- html {
+@media screen and (min-width: 769px) {
+
+	html {
 
         background-color: #1C2541;
         padding: 0 1em;
@@ -242,15 +244,9 @@ a:active {
 
 
 
-      @media all and (max-width: 768px) {
 
-      	body {
-      		min-width: 400px;
+ 
 
-      	}
 
-      
-      }
-      	
-
+}
  
