@@ -202,13 +202,16 @@ p {
 
 #about {
 
-	padding-bottom: 100px;
+	margin-top: 25px;
+	padding-bottom: 350px;
 }
+
+
+
 
 #hobbies {
 
-	/*margin: 10%;
-	padding: 10%;*/
+	padding:25px;
 	display: flex;
 	flex-direction: row;
 	/*flex-wrap: wrap;*/
@@ -217,6 +220,7 @@ p {
 	color: #BEC8D1;
 	
 }
+
 
 a:link {
 
